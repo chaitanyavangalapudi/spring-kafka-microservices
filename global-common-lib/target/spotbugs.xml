@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<BugCollection version='3.1.9' threshold='low' effort='max'><Error></Error><Project><SrcDir>/root/Music/spring-kafka-microservices/global-common-lib/src/main/java</SrcDir><SrcDir>/root/Music/spring-kafka-microservices/global-common-lib/target/generated-sources/annotations</SrcDir><SrcDir>/root/Music/spring-kafka-microservices/global-common-lib/src/test/java</SrcDir></Project></BugCollection>
