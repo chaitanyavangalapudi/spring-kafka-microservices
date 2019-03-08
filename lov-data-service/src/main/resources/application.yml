@@ -1,9 +1,9 @@
 spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://172.31.61.236:3306/masterdb?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&useSSL=false&requireSSL=false&verifyServerCertificate=false
-    username: gatidev
-    password: rxv3rPw#
+    url: jdbc:mysql://localhost:3306/studentdb?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&useSSL=false&requireSSL=false&verifyServerCertificate=false
+    username: test
+    password: rxCv3rPw#
     hikari:
      maximum-pool-size: 5
   jpa:
@@ -16,8 +16,8 @@ spring:
         enable_lazy_load_no_trans: true
   data:
     elasticsearch:
-      cluster-nodes: 172.31.61.236:9300
-      cluster-name: gati-elastic-cluster
+      cluster-nodes: 192.61.71.226:9300
+      cluster-name: local-elastic-cluster
       repositories:
         enabled: true
 server:
