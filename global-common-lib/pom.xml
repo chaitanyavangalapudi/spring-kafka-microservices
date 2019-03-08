@@ -17,7 +17,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.gati.platform</groupId>
+      <groupId>com.iggi.platform</groupId>
       <artifactId>exception-core</artifactId>
     </dependency>
     <dependency>
