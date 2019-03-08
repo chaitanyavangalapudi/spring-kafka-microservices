@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+  <Match>
+    <Class name="com\.iggi\.example\.avro\.model.*" />
+  </Match>
+    <Match>
+    <Source name="~.*generated-sources.*.java"/>
+  </Match>
+  <Match>
+    <Package name="com\.iggi\.example\.avro\.model.*" />
+  </Match>
+</FindBugsFilter>
